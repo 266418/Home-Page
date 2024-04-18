@@ -1,0 +1,73 @@
+
+
+/*
+=================================================
+SEARCH
+=================================================
+*/
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+ }
+ input{
+    width:100%;
+    font-size:32px;
+    margin:5px 0;
+    float:left;
+    border:none;
+    padding:10px;
+    outline:none;
+ }
+ .search-bar {
+    width: 67%; /* Set the search bar to fill the container */
+    font-size: px; /* Adjust font size as needed */
+    margin: 2px 0;
+    padding: 5px 1px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    position: relative;
+    top: 500px;
+    background: grey;
+    border: 4px solid black;
+    right: -50px;
+    
+  }
+  .submit-button {
+    width: 15%; /* Set the width of the submit button */
+    background: #000;
+    color: #FFF;
+    border: none;
+    padding: 5px 200px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top:500px;
+    right: -50px;
+    
+  }
+  .weatherwidget-io{
+   width: 100px;
+
+  }
+ body{
+    background-color: goldenrod
+ }
+ .bookmarks{
+    float: left;
+ }
+ .weatherwidget-io
+ {
+    
+    margin-left:0%;
+    left:30%;
+ }
+ 
+ 
+ 

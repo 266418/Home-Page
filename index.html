@@ -5,12 +5,15 @@
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Home Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -18,13 +21,27 @@
         <![endif]-->
         
         <script src="" async defer></script>
-        <!-- GOOGLE SEARCH -->
-        <form action="https://google.com/search" method="get" target="_blank">
-            <input type="hidden" name="sitesearch" />
-            <input type="text" name="q" placeholder="search..." class="search-bar"/>
-            <input type="submit" value="GO" class="submit-button">
-        </form>
+       <!-- GOOGLE SEARCH -->
+<form action="https://google.com/search" method="get" target="_blank">
+    <input type="hidden" name="sitesearch" />
+    <input type="text" name="q" placeholder="search..." class="search-bar"/>
+    <input type="submit" value="GO" class="submit-button">
+ </form>
+
+    
  
  
+ </script>
+ <section class="bookmarks">
+    <a href="https://mail.google.com" target="_blank">
+    <i class="fas fa-envelope"></i>
+    </a>
+           <i class="fas fa-sticky-note" onclick="showNote()"></i>
+           <i class="fas fa-calculator" onclick="showCalculator()"></i>
+    </section>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/42d07n87d79/glenview/" data-label_1="GLENVIEW" data-label_2="WEATHER" data-theme="dark" >GLENVIEW WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
     </body>
 </html>
