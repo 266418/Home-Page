@@ -33,7 +33,7 @@ form{
  .search-bar {
     width: 67%; /* Set the search bar to fill the container */
     font-size: px; /* Adjust font size as needed */
-    margin: 2px 0;
+    margin: 0px auto;
     padding: 5px 1px;
     border: none;
     outline: none;
@@ -46,11 +46,11 @@ form{
     
   }
   .submit-button {
-    width: 15%; /* Set the width of the submit button */
+    width: 67%; /* Set the width of the submit button */
     background: #000;
     color: #FFF;
     border: none;
-    padding: 5px 200px;
+    padding: 5px 1px;
     cursor: pointer;
     box-sizing: border-box;
     
@@ -63,7 +63,7 @@ form{
    width: 100px;
    
    position: relative;
-   top: -100px
+   top: -200px
   }
  body{
     background-color: #f1f1f1;
@@ -91,11 +91,13 @@ BOOKMARKS
    vertical-align: top;
    position:relative;
    left:45%;
+   width: 3%;
    top: 500px;
 }
 .bookmarks i:hover{
    font-size:72px;
-   position:relative;
+   
+   
    
 }
 
@@ -115,9 +117,11 @@ BOOKMARKS
   
   #clock{
    border: 8px solid black;
-   position:relative;
-   top:-70px;
-   width: 160px;
+   position:absolute;
+right: 40%;
+top: 900px;
+
+  
    font-size: 40px;
    color: black;
    
@@ -156,11 +160,12 @@ body{
 svg{font-weight:bold;max-width:600px;}
 
 svg{
-   align-items: center;
+   text-align: center;
    position: relative;
- left: 40%;
- top: 400px;
- margin:5px;
+   top:400px;
+   left: 40%;
+ width: 37%;
+ font-weight: 900px;
    
 }
 
